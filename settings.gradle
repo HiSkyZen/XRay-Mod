@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'advanced-xray-forge'
+rootProject.name = 'advanced-dfu-optimize'

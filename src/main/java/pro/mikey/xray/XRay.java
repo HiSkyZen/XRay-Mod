@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(XRay.MOD_ID)
 public class XRay {
-	public static final String MOD_ID = "xray";
+	public static final String MOD_ID = "dfuoptimize";
 	public static final String PREFIX_GUI = String.format("%s:textures/gui/", MOD_ID);
 
 	public static Logger logger = LogManager.getLogger();

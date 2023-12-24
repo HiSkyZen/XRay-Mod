@@ -9,7 +9,7 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 def ENV = System.getenv()
 version = "${minecraft_version}-${mod_version}-build.${ENV.GITHUB_RUN_NUMBER ?: 9999}"
 group= "pro.mikey"
-archivesBaseName = "advanced-xray-forge"
+archivesBaseName = "advanced-dfu-optimize"
 
 loom {
     silentMojangMappingsLicense()
@@ -70,12 +70,12 @@ jar {
 
     manifest {
         attributes([
-                "Specification-Title"     : "Advanced XRay",
-                "Specification-Vendor"    : "Advanced XRay",
+                "Specification-Title"     : "Advanced DFU Optimize",
+                "Specification-Vendor"    : "Advanced DFU Optimize",
                 "Specification-Version"   : "1",
-                "Implementation-Title"    : "Advanced XRay",
+                "Implementation-Title"    : "Advanced DFU Optimize",
                 "Implementation-Version"  : version,
-                "Implementation-Vendor"   : "Advanced XRay",
+                "Implementation-Vendor"   : "Advanced DFU Optimize",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

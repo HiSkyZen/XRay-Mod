@@ -1,22 +1,22 @@
 modLoader="javafml" #mandatory
 loaderVersion="[${forge_version_range},)" #mandatory
 credits="ErrorMikey" #optional
-authors="AdvancedXRay Team" #optional
+authors="AdvancedDFUOptimize Team" #optional
 license="GNU GPL v3.0 (https://github.com/MichaelHillcox/XRay-Mod/blob/master/LICENSE)"
 [[mods]]
-    modId="xray"
+    modId="dfuoptimize"
     version="${version}"
-    displayName="Advanced XRay"
-    description="An advanced XRay mod for Minecraft."
+    displayName="Advanced DFU Optimize"
+    description="An advanced DFU Optimize mod for Minecraft."
 
-[[dependencies.xray]]
+[[dependencies.dfuoptimize]]
     modId="forge"
     mandatory=true
     versionRange="[${forge_version_range},)"
     ordering="NONE"
     side="CLIENT"
 
-[[dependencies.xray]]
+[[dependencies.dfuoptimize]]
     modId="minecraft"
     mandatory=true
     versionRange="[${minecraft_version_range})"
