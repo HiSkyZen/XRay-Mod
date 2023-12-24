@@ -2,7 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[${forge_version_range},)" #mandatory
 credits="ErrorMikey" #optional
 authors="AdvancedDFUOptimize Team" #optional
-license="GNU GPL v3.0 (https://github.com/MichaelHillcox/XRay-Mod/blob/master/LICENSE)"
+license="GNU GPL v3.0 (https://github.com/HiSkyZen/DFU-Optimize/blob/master/LICENSE)"
 [[mods]]
     modId="dfuoptimize"
     version="${version}"

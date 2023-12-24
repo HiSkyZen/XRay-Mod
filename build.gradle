@@ -9,18 +9,18 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 def ENV = System.getenv()
 version = "${minecraft_version}-${mod_version}-build.${ENV.GITHUB_RUN_NUMBER ?: 9999}"
 group= "pro.mikey"
-archivesBaseName = "advanced-dfu-optimize"
+archivesBaseName = "dfuoptimize"
 
 loom {
     silentMojangMappingsLicense()
 
     forge {
         mixinConfigs = [
-                "xray.mixins.json"
+                "dfuoptimize.mixins.json"
         ]
     }
 
-    accessWidenerPath = file("src/main/resources/xray.accesswidener")
+    accessWidenerPath = file("src/main/resources/dfuoptimize.accesswidener")
 }
 
 repositories {
@@ -52,6 +52,9 @@ dependencies {
 repositories {
     maven {
         url "https://maven.saps.dev/mirror"
+    }
+    maven {
+        url = "https://maven.minecraftforge.net/"
     }
 }
 

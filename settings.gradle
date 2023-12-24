@@ -2,8 +2,9 @@ pluginManagement {
     repositories {
         maven { url "https://maven.creeperhost.net/" }
         maven { url "https://maven.shedaniel.me/" }
+        maven { url = 'https://maven.minecraftforge.net/' }
         gradlePluginPortal()
     }
 }
 
-rootProject.name = 'advanced-dfu-optimize'
+rootProject.name = 'dfuoptimize'
